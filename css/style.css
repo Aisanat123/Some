@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_top_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.header_top_block img {
+    margin-right: 100px;
+}
+
+.header_top_block h1 {
+    color: #0088A2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    flex: 0 1 20%;
+}
+
+.menu_item {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px 0;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.menu_item:hover {
+    background-color: #0088A2;
+}
+
+/* ОПРОСНИК */
+.wrapper_survey {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_survey {
+    flex: 0 1 30%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.content_survey img {
+    width: 100%;
+}
+
+.content_survey h6 {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.68px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    text-align: center;
+    width: 80%;
+}
+
+.content_survey:hover {
+    transform: scale(1.2);
+}
+
+.about_app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 125px 25px 30px;
+}
+
+.about_app_text {
+    color: #0088A2;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.img_video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img_videoLesson {
+    position: absolute;
+    top: 45%
+}
+
+.main_part {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.part_quest {
+    width: 20%;
+    flex: 0 1 20%;
+    position: absolute;
+    top: 0;
+}
+
+.part_quest img {
+    width: 100%;
+}
+
+.part_quest:nth-child(1) {
+    left: 8%;
+}
+
+.part_quest:nth-child(2) {
+    top: 35px;
+    left: 23%;
+}
+
+.part_quest:nth-child(3) {
+    left: 41%
+}
+
+.part_quest:nth-child(4) {
+    top: 35px;
+    left: 58%;
+}
+
+.part_quest:nth-child(5) {
+    left: 75%;
+}
+
+.about_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45% 15% 44px;
+}
+
+.about_pr_title {
+    color: #0088A2;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.about_pr_text {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.download h2 {
+    color: #0088A2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.download p {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.block_downl {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.footer_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0088A2;
+    color: #FDFDFD;
+}
+
+.footer_title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin-top: 25px;
+}
+
+.footer_items img {
+    width: 20%;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 25px;
+    padding-right: 120px;
+    width: 100%;
+}
+
+.footer_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
